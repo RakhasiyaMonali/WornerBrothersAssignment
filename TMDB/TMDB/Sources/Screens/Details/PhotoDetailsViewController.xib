@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhotoDetailsViewController" customModule="PhotoSearch" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="Zej-tr-n7V" id="esY-mO-7UW"/>
+                <outlet property="loadingIndicator" destination="Utk-0O-s9V" id="Yac-HQ-FXT"/>
+                <outlet property="poster" destination="Oi2-AH-vEW" id="gXB-kD-aYT"/>
+                <outlet property="view" destination="iN0-l3-epB" id="ZZB-fu-Zp3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="Utk-0O-s9V">
+                    <rect key="frame" x="197" y="443" width="20" height="20"/>
+                </activityIndicatorView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zej-tr-n7V">
+                    <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="LgL-fa-Yg0">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="852"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Oi2-AH-vEW">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="852"/>
+                                </imageView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="SAf-45-iHu" firstAttribute="top" secondItem="LgL-fa-Yg0" secondAttribute="top" id="7f7-6r-qD7"/>
+                        <constraint firstItem="Oi2-AH-vEW" firstAttribute="height" secondItem="UnE-dJ-m6F" secondAttribute="height" id="AIY-8b-G1d"/>
+                        <constraint firstItem="LgL-fa-Yg0" firstAttribute="leading" secondItem="UnE-dJ-m6F" secondAttribute="leading" id="Dsq-FX-KLe"/>
+                        <constraint firstItem="LgL-fa-Yg0" firstAttribute="trailing" secondItem="SAf-45-iHu" secondAttribute="trailing" id="KBj-ZH-jHr"/>
+                        <constraint firstItem="SAf-45-iHu" firstAttribute="leading" secondItem="LgL-fa-Yg0" secondAttribute="leading" id="WBR-52-YbC"/>
+                        <constraint firstItem="LgL-fa-Yg0" firstAttribute="trailing" secondItem="UnE-dJ-m6F" secondAttribute="trailing" id="Zx6-dH-pSz"/>
+                        <constraint firstItem="LgL-fa-Yg0" firstAttribute="bottom" secondItem="SAf-45-iHu" secondAttribute="bottom" id="ruW-uu-RKU"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="SAf-45-iHu"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="UnE-dJ-m6F"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Zej-tr-n7V" secondAttribute="trailing" id="DeG-3v-TOd"/>
+                <constraint firstAttribute="bottom" secondItem="Zej-tr-n7V" secondAttribute="bottom" id="Eln-mX-agL"/>
+                <constraint firstItem="Zej-tr-n7V" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="F1r-wP-YJA"/>
+                <constraint firstItem="Utk-0O-s9V" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="FGb-1r-FZe"/>
+                <constraint firstItem="Zej-tr-n7V" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="bhA-Ww-AgJ"/>
+                <constraint firstItem="Utk-0O-s9V" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="t8I-N2-LZg"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="113"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

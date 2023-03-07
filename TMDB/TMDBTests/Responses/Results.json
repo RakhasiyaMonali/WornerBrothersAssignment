@@ -1,0 +1,11 @@
+{ "photos":{
+    "photos": {
+        "page": 1,
+        "pages": 3439,
+        "perpage": 100,
+        "total": 343872,
+        "stat": "ok",
+        "photo": [{"id":"52727825993","owner":"195045745@N08","secret":"704c39282c","server":"65535","farm":66,"title":"Trof\u00e9u JK 2023 - Rio 458 anos, Capital Mundial da Influ\u00eancia Digital. Centen\u00e1rio do Copa","ispublic":1,"isfriend":0,"isfamily":0},{"id":"52727825738","owner":"195045745@N08","secret":"5161531fa0","server":"65535","farm":66,"title":"Trof\u00e9u JK 2023 - Rio 458 anos, Capital Mundial da Influ\u00eancia Digital. Centen\u00e1rio do Copa","ispublic":1,"isfriend":0,"isfamily":0},{"id":"52727825463","owner":"195045745@N08","secret":"fde05c4f3c","server":"65535","farm":66,"title":"Trof\u00e9u JK 2023 - Rio 458 anos, Capital Mundial da Influ\u00eancia Digital. Centen\u00e1rio do Copa","ispublic":1,"isfriend":0,"isfamily":0},{"id":"52727825363","owner":"195045745@N08","secret":"317562e4ce","server":"65535","farm":66,"title":"Trof\u00e9u JK 2023 - Rio 458 anos, Capital Mundial da Influ\u00eancia Digital. Centen\u00e1rio do Copa","ispublic":1,"isfriend":0,"isfamily":0},{"id":"52726823217","owner":"195045745@N08","secret":"7e4fe4b644","server":"65535","farm":66,"title":"Trof\u00e9u JK 2023 - Rio 458 anos, Capital Mundial da Influ\u00eancia Digital. Centen\u00e1rio do Copa","ispublic":1,"isfriend":0,"isfamily":0},{"id":"52727762015","owner":"195045745@N08","secret":"1ae5b2c787","server":"65535","farm":66,"title":"Trof\u00e9u JK 2023 - Rio 458 anos, Capital Mundial da Influ\u00eancia Digital. Centen\u00e1rio do Copa","ispublic":1,"isfriend":0,"isfamily":0},{"id":"52727602304","owner":"195045745@N08","secret":"ffb58efa87","server":"65535","farm":66,"title":"Trof\u00e9u JK 2023 - Rio 458 anos, Capital Mundial da Influ\u00eancia Digital. Centen\u00e1rio do Copa","ispublic":1,"isfriend":0,"isfamily":0}]
+        }
+    }
+}
